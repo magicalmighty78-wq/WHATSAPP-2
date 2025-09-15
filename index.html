@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Your Ex Back & Make Your Crush Love You</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #ffdde1, #ee9ca7);
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #222;
+    }
+    header {
+      background: #ff4d6d;
+      color: white;
+      padding: 20px;
+      font-size: 26px;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    h2 {
+      font-size: 22px;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+    p {
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 1.6;
+    }
+    .button {
+      display: inline-block;
+      background: #ff4d6d;
+      color: white;
+      padding: 12px 20px;
+      margin: 10px 0;
+      border-radius: 6px;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .reviews {
+      background: #fff;
+      margin: 30px auto;
+      padding: 20px;
+      width: 90%;
+      max-width: 800px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    .review {
+      text-align: left;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 15px;
+    }
+    .review img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+    .review strong {
+      font-size: 18px;
+    }
+    .stars {
+      color: gold;
+      font-size: 20px;
+    }
+    #popup {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      background: white;
+      border: 2px solid #ff4d6d;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      display: none;
+      font-size: 16px;
+      font-weight: bold;
+      max-width: 250px;
+    }
+    #popup img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <header>💖 Get Your Ex Back & Make Your Crush Love You 💖</header>
+
+  <section>
+    <h2>📱 iMessage (iPhone Users Only)</h2>
+    <p>Message me directly using the number below OR click the button. You can also copy the link manually.</p>
+    <p><strong>+2349130883472</strong></p>
+
+    <!-- Fixed iMessage button -->
+    <a href="imessage:+2349130883472" class="button">Click Here To iMessage Me Now To Get Your Ex Back Today</a>
+
+    <p><strong>imessage://+2349130883472</strong></p>
+    <button class="button" onclick="copyText('imessage://+2349130883472')">📋 Copy iMessage Link</button>
+
+    <h2>💬 WhatsApp (Android & iPhone Users)</h2>
+    <p>Copy this link and paste it into any browser (Safari, Chrome, Firefox, Edge). It will take you directly to WhatsApp so we can begin your love and obsession spell immediately.</p>
+    <p><strong>https://wa.link/b29eqd</strong></p>
+    <button class="button" onclick="copyText('https://wa.link/b29eqd')">📋 Copy WhatsApp Link</button>
+
+    <h2>📨 Telegram</h2>
+    <p>Copy my username and search for it on Telegram to message me directly:</p>
+    <p><strong>@trustedpsychic</strong></p>
+    <button class="button" onclick="copyText('@trustedpsychic')">📋 Copy Telegram Username</button>
+  </section>
+
+  <section class="reviews">
+    <h2>🌟 Client Reviews (Over 2400+ Success Stories)</h2>
+
+    <div class="review">
+      <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="Client">
+      <strong>Sarah J.</strong> <span class="stars">★★★★★</span>
+      <p>"At first I didn’t believe this could work. Within 24 hours, my ex texted me apologizing and begging to meet. Now we’re planning our future again. I can’t thank you enough — it truly feels like a miracle."</p>
+    </div>
+
+    <div class="review">
+      <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="Client">
+      <strong>David R.</strong> <span class="stars">★★★★★</span>
+      <p>"I thought my crush barely noticed me. After contacting, she suddenly became obsessed with me. She messages me every morning and night now. I finally feel loved and wanted. This works beyond imagination."</p>
+    </div>
+
+    <div class="review">
+      <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="Client">
+      <strong>Emily K.</strong> <span class="stars">★★★★★</span>
+      <p>"I was heartbroken for months. One session later, my ex reached out crying, saying he couldn’t live without me. It was so powerful I still can’t believe it. If you’re doubting, don’t — it’s real."</p>
+    </div>
+
+    <div class="review">
+      <img src="https://randomuser.me/api/portraits/men/4.jpg" alt="Client">
+      <strong>James T.</strong> <span class="stars">★★★★★</span>
+      <p>"She guided me step by step. My crush is now my girlfriend. The bond feels magical, like destiny itself brought us together. I’d recommend this to anyone serious about love and relationships."</p>
+    </div>
+
+    <div class="review">
+      <img src="https://randomuser.me/api/portraits/women/5.jpg" alt="Client">
+      <strong>Olivia W.</strong> <span class="stars">★★★★★</span>
+      <p>"I was skeptical, but my ex literally came back within 24 hours, crying and holding me, saying he couldn’t stay away. The results are real, powerful, and life-changing."</p>
+    </div>
+  </section>
+
+  <div id="popup"></div>
+
+  <script>
+    function copyText(text) {
+      navigator.clipboard.writeText(text).then(() => {
+        alert("Copied: " + text);
+      });
+    }
+
+    const popup = document.getElementById("popup");
+    const messages = [
+      {name: "Sophia L.", text: "just reunited with her ex after only 12 hours!", img: "https://randomuser.me/api/portraits/women/10.jpg"},
+      {name: "Michael B.", text: "finally got his crush to confess feelings for him!", img: "https://randomuser.me/api/portraits/men/11.jpg"},
+      {name: "Emma S.", text: "says her lover is now obsessed and can’t stop texting her!", img: "https://randomuser.me/api/portraits/women/12.jpg"},
+      {name: "Daniel M.", text: "got his ex back and they are happier than ever!", img: "https://randomuser.me/api/portraits/men/13.jpg"},
+      {name: "Ava P.", text: "made her crush fall deeply in love within 24 hours!", img: "https://randomuser.me/api/portraits/women/14.jpg"}
+    ];
+
+    function showPopup() {
+      const msg = messages[Math.floor(Math.random() * messages.length)];
+      popup.innerHTML = `<img src="${msg.img}" alt="User"><span><strong>${msg.name}</strong> ${msg.text}</span>`;
+      popup.style.display = "block";
+      setTimeout(() => { popup.style.display = "none"; }, 5000);
+    }
+
+    setInterval(showPopup, 8000);
+  </script>
+</body>
+</html>
